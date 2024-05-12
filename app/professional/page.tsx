@@ -1,6 +1,6 @@
 'use client'
 
-import { Timeline, Text, Container, Notification, Space, Alert, List, SimpleGrid } from '@mantine/core';
+import { Timeline, Text, Container, Space, Alert, List } from '@mantine/core';
 import { useToggle } from '@mantine/hooks';
 import { IconCodeCircle2, IconGlobe, IconAtom2, IconAffiliate, IconSignRight, IconCpu, IconAward, IconPuzzle } from '@tabler/icons-react';
 

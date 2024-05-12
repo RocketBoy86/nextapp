@@ -37,7 +37,7 @@ export default function RootLayout({
             <AppShell.Header>
               <Group h="100%" px="md">
                 <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-                <Image radius="lg" h={50} w={50} fit="contain" src="/rd_logo1.jpg" />
+                <Image radius="lg" h={50} w={50} fit="contain" src="/rd_logo1.jpg"/>
               </Group>
             </AppShell.Header>
             <AppShell.Navbar p="md" onClick={toggle}>

@@ -5,8 +5,8 @@ import { IconCodeCircle2, IconGlobe, IconAtom2, IconAffiliate, IconSignRight, Ic
 
 import { ColorSchemeToggle } from '../../components/ColorSchemeToggle/ColorSchemeToggle';
 
-import BoatCard from '@/app/imaginarium/CardGallery';
-import CardGallery from '@/app/imaginarium/CardGallery';
+import BoatCard from '@/components/CardGallery';
+import CardGallery from '@/components/CardGallery';
 
 
 
@@ -14,7 +14,7 @@ export default function Imaginarium() {
   return (
     <>
     <Container>
-      <Blockquote color="blue" cite="– Timothy Richardson" mt="xl">A page awaiting content is a blank page.</Blockquote>
+      <Blockquote color="blue" mt="xl">A selection of personal projects from the physical world and the digital.</Blockquote>
       <Space h="xl"></Space>
       <CardGallery></CardGallery>
     </Container>
