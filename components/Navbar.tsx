@@ -1,17 +1,10 @@
 
 import { NavLink } from '@mantine/core';
-import { IconGauge, IconStack3, IconActivity, IconMail, IconBalloon } from '@tabler/icons-react';
+import { IconGauge, IconStack3, IconBalloon } from '@tabler/icons-react';
 
 export default function NavBar() {
   return (
     <>
-      <NavLink
-        href="/"
-        label="Rich Designs"
-        description="Microsite inspiration"
-        leftSection={<IconGauge size="2rem" stroke={1.5} />}
-      />
-
       <NavLink
         href="/professional"
         label="Professional Experience"
@@ -23,6 +16,13 @@ export default function NavBar() {
         href="/imaginarium"
         label="The Imaginarium"
         description="Professional expertise applied to life"
+        leftSection={<IconBalloon size="2rem" stroke={1.5} />}
+      />
+
+<NavLink
+        href="/pd"
+        label="Professional Reflections"
+        description="Thoughts on professional development"
         leftSection={<IconBalloon size="2rem" stroke={1.5} />}
       />
     </>

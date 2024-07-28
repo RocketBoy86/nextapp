@@ -2,14 +2,14 @@ import { useDisclosure } from '@mantine/hooks';
 import { Modal, Button, Text, Title, Space, List, ListItem, ScrollArea } from '@mantine/core';
 import { IconBrandAws, IconBraces, IconDevices, IconAsset, IconTerminal2, IconCompass, IconBrandDocker, IconBrandNextjs, IconBrandUbuntu, IconVectorSpline } from '@tabler/icons-react';
 
-export default function RDModal() {
+export default function CotModal() {
   const [opened, { open, close }] = useDisclosure(false);
 
   return (
     <>
-      <Modal opened={opened} onClose={close} title="RichDesigns.info" size="xl" centered>
+      <Modal opened={opened} onClose={close} title="Shaheen Mahal" size="xl" centered>
         <ScrollArea.Autosize offsetScrollbars>
-        <Text>Rich Designs is the web application you are currently interacting with.</Text>
+        <Text>Shaheen Mahal - The Eagle's Palace.</Text>
         <Space h="sm"></Space>
         <Text>
             I created the project with two main goals in mind:

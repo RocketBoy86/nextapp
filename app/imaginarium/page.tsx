@@ -14,7 +14,7 @@ export default function Imaginarium() {
   return (
     <>
     <Container>
-      <Blockquote color="blue" mt="xl">A selection of personal projects from the physical world and the digital.</Blockquote>
+    <Blockquote color="blue" cite="– Le Petit Prince" mt="xl">A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.</Blockquote>
       <Space h="xl"></Space>
       <CardGallery></CardGallery>
     </Container>

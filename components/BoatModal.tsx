@@ -54,7 +54,7 @@ export default function BoatModal() {
         <Text>The good ship "Nu Pagadi" is a Heron class trailerable sail boat which I am part way through building from paper plans. The Heron class was designed in the 1960s and popular across the UK and Australia.</Text>
         <Space h="xs"></Space>
         <Text>
-          My reasons for taking on such a project are that such a unique personal project would guarantee to test my present capability, build my problem solving, 
+          My reasons for taking on such a project are to test my present capability, build my problem solving, 
           and teach me traditional skills which are slowly fading as life becomes computerised. Through the process of maintaining/repairing a wooden framed house I have accumulated the required tools, 
           building and woodworking skills to <Mark>attempt</Mark> the challenge...
         </Text>

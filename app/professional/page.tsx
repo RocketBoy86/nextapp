@@ -46,8 +46,6 @@ export default function Professional() {
         <Timeline active={5} bulletSize={45} lineWidth={2}>
         <Timeline.Item color='red.7' title="The future..." bullet={<IconAtom2 size={35} />} lineVariant="dashed">
             <Text size="xs" mt={4}>Is now?</Text>
-            <Text c="dimmed" size="sm">My world changed</Text>
-            <Text c="dimmed" size="sm">The day I began learning</Text>
         </Timeline.Item>
 
         <Timeline.Item color='orange.5' title="Barrenjoey Markets" bullet={<IconGlobe size={35} />}>
