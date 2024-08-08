@@ -12,10 +12,11 @@ export default function RDModal() {
         <Text>Rich Designs is the web application you are currently interacting with.</Text>
         <Space h="sm"></Space>
         <Text>
-            I created the project with two main goals in mind:
+            I created the project with some main goals in mind:
             <Space h="xs"></Space>
             <List>
-                <ListItem>Maintain existing technical knowledge/skills relating to analysis, design, and building</ListItem>
+                <ListItem>Explore what it means to create a professional, appealing, hosted resume and personal portfolio</ListItem>
+                <ListItem>Compare the value I get from LinkedIn vs sending contacts to my hosted resume</ListItem>
                 <ListItem>Practice new skills, toolchains, languages</ListItem>
             </List>
         </Text>   

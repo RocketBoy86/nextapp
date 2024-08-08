@@ -15,8 +15,8 @@ export default function NavBar() {
       <NavLink
         href="/imaginarium"
         label="The Imaginarium"
-        description="Professional expertise applied to life"
-        leftSection={<IconBalloon size="2rem" stroke={1.5} />}
+        description="Life applied to professional expertise"
+        leftSection={<IconGauge size="2rem" stroke={1.5} />}
       />
 
 <NavLink

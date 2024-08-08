@@ -6,6 +6,7 @@ import  RDModal from './RDModal'
 import BoatModal from './BoatModal';
 import CotModal from './CotModal';
 import SecPhoneModal from './SecPhoneModal';
+import ResumeModal from './ResumeModal';
 
 export default function CardGallery() {
   return (
@@ -19,7 +20,7 @@ export default function CardGallery() {
         <BoatCard></BoatCard>
         <RDCard></RDCard>
         <Cot></Cot>
-        <SecPhone></SecPhone>
+        <AIResumeCard></AIResumeCard>
     </Flex>
   );
 }
@@ -73,7 +74,7 @@ export function Cot() {
   return (
     <Card w={283} h={430} shadow="sm" padding="lg" radius="md" withBorder>
       <Image
-        src="/rd_logo1.jpg"
+        src="/cot_1.png"
         w={240}
         fit="fill"
         radius="xl"
@@ -111,4 +112,26 @@ export function Cot() {
         <SecPhoneModal></SecPhoneModal>
       </Card>   
     );
+}
+
+export function AIResumeCard() {
+  return (
+    <Card w={283} h={430} shadow="sm" padding="lg" radius="md" withBorder>
+      <Image
+        src="/nupagadi1.jpg"
+        w={240}
+        fit="fill"
+        radius="xl"
+        alt="The good ship Nu Pagadi"    
+      />
+      <Group justify="space-between" mt="md" mb="xs">
+        <Text fw={600}>Resume coach</Text>
+        <Badge color="blue">Experiment</Badge>
+      </Group>
+      <Text size="sm">
+        Training an AI model to critically assess my hosted resume.
+      </Text>
+      <ResumeModal></ResumeModal>
+    </Card>
+  );
 }
